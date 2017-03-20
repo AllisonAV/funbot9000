@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AllisonAV/funbot9000/issues"
   },
-  "homepage": "https://github.com/AllisonAV/funbot9000#readme"
+  "homepage": "https://github.com/AllisonAV/funbot9000#readme",
+  "dependencies": {
+    "tessel": "^0.3.25"
+  }
 }
