@@ -1,23 +1,19 @@
 {
   "name": "funbot9000",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.0",
+  "description": "Tessel project",
   "main": "index.js",
+  "dependencies": {
+    "tessel": "^0.3.25"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AllisonAV/funbot9000.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AllisonAV/funbot9000/issues"
-  },
-  "homepage": "https://github.com/AllisonAV/funbot9000#readme",
-  "dependencies": {
-    "tessel": "^0.3.25"
-  }
+  "repository": "https://github.com/AllisonAV/funbot9000.git",
+  "keywords": [
+    "Tessel"
+  ],
+  "license": "MIT",
+  "readme": "A bare bones Tessel 2 blinky script."
 }
